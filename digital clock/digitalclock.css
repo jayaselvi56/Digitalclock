@@ -1,0 +1,39 @@
+body{
+    background: url(wall1.jpeg) no-repeat center top/ cover;
+
+}
+.clock {
+    width: fit-content;
+    padding: 100px;
+    font-size: 60px;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 3px;
+    border-radius: 10px;
+    background-color: white;
+    background: url(wall1.jpeg) no-repeat center bottom/ cover;
+    position: absolute;
+    border: 1px solid rgb(217, 217, 217) ;
+    color: #ffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    
+}
+
+@media(max-width:700px) {
+    #digital-clock {
+        width: fit-content;
+        font-size: 40px;
+        padding: 5rem;
+        text-align: center;
+        
+    }
+    body{
+        background: url(wall1.jpeg) no-repeat;
+    }
+   
+}
